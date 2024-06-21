@@ -1,7 +1,7 @@
 import arrow
 from feedgen.feed import FeedGenerator
 from rsserpent_rev.utils import HTTPClient, cached
-from rsserpent_rev.utils.provider import Feed  # noqa: F401
+from rsserpent_rev.models import Feed  # noqa: F401
 
 path = "/apple-newsroom"
 
